@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/examples/carousel/index.html -->
+<html lang="en" style="visibility: visible;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gunni Thorvalds' Portfolio">
+    <meta name="author" content="Gunni Thorvalds">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.png">
+
+    <title>Gunni Thorvalds</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+  <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style><style type="text/css"></style><script>function notifyScript() {     var evt = document.createEvent("Event");     evt.initEvent("notify", false, false);     if (document.getElementById("addthis-extension-script") == null) {        var d=document.createElement("div"); d.setAttribute("style", "display:none"); d.setAttribute("id", "addthis-extension-script");         if (window._ate)             d.textContent=_ate.pub();         else if(window.addthis_config && addthis_config.pubid)    d.textContent= addthis_config.pubid;        else if(window.addthis_config && addthis_config.username)    d.textContent= addthis_config.username;        else if(window.addthis_pub)    d.textContent= addthis_pub;        else             d.textContent="";         document.body.appendChild(d);     }    document.documentElement.dispatchEvent(evt); }notifyScript()</script></head>
+
+    <script type="text/javascript" src="//use.typekit.net/pnd6crw.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- NAVBAR
+================================================== -->
+  <body style="">
+
+<!--  
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/index.html#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://getbootstrap.com/examples/carousel/index.html#">Home</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/index.html#about">About</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/index.html#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="http://getbootstrap.com/examples/carousel/index.html#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://getbootstrap.com/examples/carousel/index.html#">Action</a></li>
+                    <li><a href="http://getbootstrap.com/examples/carousel/index.html#">Another action</a></li>
+                    <li><a href="http://getbootstrap.com/examples/carousel/index.html#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="http://getbootstrap.com/examples/carousel/index.html#">Separated link</a></li>
+                    <li><a href="http://getbootstrap.com/examples/carousel/index.html#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+-->
+
+
+    <!-- Header
+    ================================================== -->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="header col-12">
+            <div class="name col-6">
+              <a href="index.html">Gunni Thorvalds</a>
+            </div>
+            <div class="about col-6">
+              About
+            </div>
+          </div>
+        </div>    
+      </div>    
+    </section>
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div class="container hidden-xs">
+      <div class="row">
+        <div id="myCarousel" class="carousel slide">
+
+          <!-- Indicators 
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol> -->
+
+          <div class="carousel-inner">
+
+            <a href="vegvisir.html">
+              <div class="item main-project active">
+                <img src="img/vegvisir-feature.jpg">
+                <div class="details">
+                  <h2>Vegvísir</h2>
+                </div>
+              </div>
+            </a>
+
+            <div class="item">
+              <img src="img/movida-feature.jpg">
+              <div class="details">
+                  <h2>Movida Corona</h2>
+                </div>
+            </div>
+
+            <div class="item">
+              <img src="img/trip-feature.jpg">
+              <div class="details">
+                  <h2>The Circle</h2>
+                </div>
+            </div>
+
+          </div>
+
+          <!-- Indicators 
+          <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/index.html#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/index.html#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          -->
+
+        </div><!-- /.carousel -->
+      </div>
+    </div>
+
+
+    <!-- Other Projects -->
+
+    <div class="container marketing">
+
+      <!-- Three columns below the carousel -->
+      <div class="row">
+
+        <a href="vegvisir.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/vegvisir-thumb.jpg">
+            <div class="details">
+              <h2>Vegvísir</h2>
+            </div>
+          </div>
+        </a>
+
+        <a href="movida-corona.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/movida-thumb.jpg">
+            <div class="details">
+              <h2>Movida Corona</h2>
+            </div>
+          </div>
+        </a>
+
+        <a href="vegvisir.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/houses-thumb.jpg">
+            <div class="details">
+              <h2>Houses</h2>
+            </div>
+          </div>
+        </a>
+
+        <a href="projects/vegamotam.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/VAM-thumb.jpg">
+            <div class="details">
+              <h2>Vegamót AM</h2>
+            </div>
+          </div>
+        </a>
+
+        <a href="vegvisir.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/islandsstofa-thumb.jpg">
+            <div class="details">
+              <h2>Íslandsstofa</h2>
+            </div>
+          </div>
+        </a>
+
+        <a href="borfelag-islands.html">
+          <div class="project col-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="img/borfelag-islands-thumb.jpg">
+            <div class="details">
+              <h2>Borfélag Íslands</h2>
+            </div>
+          </div>
+        </a>
+
+      </div><!-- /.row -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="index.html#">Back to top</a></p>
+        <p>© 2013 Gunni Thorvalds · <a href="http://www.dribbble.com/gunnithorvalds" target="_blank">Dribbble</a> · <a href="http://www.gunnithorvalds.tumblr.com" target="_blank">Tumblr</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./carousel_files/jquery.js"></script>
+    <script src="./carousel_files/bootstrap.min.js"></script>
+    <script src="./carousel_files/holder.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $('.carousel').carousel({
+              interval: 5000
+          });
+
+          $('.carousel').carousel('cycle');
+      });
+    </script>  
+

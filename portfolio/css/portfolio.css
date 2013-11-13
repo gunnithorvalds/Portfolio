@@ -1,0 +1,391 @@
+body {
+	font-family: "livory";
+	color: #444;
+	padding: 0 3px;
+}
+
+a {
+	color: #444;
+	transition: color 0.25s ease-out;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #acc5d0;
+}
+
+#header {
+	margin: 30px 0;
+	padding: 0 15px;
+}
+
+#projects {
+	margin: 0;
+	padding: 0 15px;
+}
+
+.name {
+	float: left;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+}
+
+.about {
+	float: right;
+}
+
+.name, .about {
+	font-family: "brandon-grotesque";
+	color: #444;
+}
+
+.carousel {
+	margin-bottom: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel .item {
+	height: auto;
+}
+
+.carousel-inner > .item > img {
+	max-width: 100%;
+	height: auto;
+}
+
+.marketing .col-lg-4 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.main-project img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main-project .details {
+	background-color: #fff;
+	color: #fff;
+	opacity: 1;
+	position: absolute;
+	bottom: 13%;
+	left: 35%;
+	right: 35%;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+
+}
+
+.no-opacity .main-project .details {
+	background: none;
+	width: 100%;
+	top: -9999px;
+}
+
+.main-project:hover .details {
+	margin-top: 0;
+	opacity: 1;
+}
+
+.main-project .details h2 {
+	font-family: "brandon-grotesque";
+	color: #444;
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+.project img {
+	width: 100%;
+}
+
+.project {
+	position: relative;
+	margin-top: 20px;
+}
+
+.project.top {
+	margin-top: 0;
+}
+
+.project.visible-xs {
+	margin-top: 0;
+}
+
+.project .details {
+	background-color: #fff;
+	color: #fff;
+	opacity: 1;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+	margin: 0 15px;
+}
+
+.no-opacity .project .details {
+	background: none;
+	min-height: 25%;
+	width: 100%;
+	top: -9999px;
+}
+
+.project:hover .details {
+	margin-top: 0;
+	opacity: 1;
+}
+
+
+.project .details h2 {
+	font-family: "brandon-grotesque";
+	color: #444;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0 0 2px 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.text .discipline {
+	float: left;
+	margin-right: 8px;
+	font-family: "livory";
+	font-weight: 400;
+	font-style: italic;
+}
+
+.description {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	max-width: 330px;
+}
+
+.description h1, h2 {
+	font-family: "brandon-grotesque";
+	color: #444; 
+}
+
+.description h1 {
+	font-size: 18px;
+	margin: 0;
+}
+
+.description h2 {
+	font-size: 16px;
+	margin: 8px 0 0 0;
+}
+
+.description p {
+	font-size: 14px;
+	margin: 20px 0 0 0;
+}
+
+.description a {
+	position: relative;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+	font-style: italic;
+}
+
+
+
+
+footer {
+	font-family: "brandon-grotesque";
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.other-projects {
+	margin: 60px  0;
+}
+
+.other-projects h1 {
+	font-family: "brandon-grotesque";
+	color: #444;
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+body {
+	padding: 0;
+}
+.project {
+	margin-top: 30px;
+}
+.carousel {
+	margin-top: 0;
+}
+.carousel .item {
+	height: 645px;
+}
+
+.main-project .details {
+	background-color: #fff;
+	color: #fff;
+	opacity: 0;
+	position: absolute;
+	bottom: 13%;
+	left: 35%;
+	right: 35%;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+
+}
+
+.no-opacity .main-project .details {
+	background: none;
+	width: 100%;
+	top: -9999px;
+}
+
+.main-project:hover .details {
+	opacity: 1;
+}
+
+.main-project .details h2 {
+	font-size: 15px;
+	padding: 19px 0 21px 0;
+	-webkit-transition: font-size 0.2s ease-in, padding 0.2s ease-in;
+	-moz-transition: font-size 0.2s ease-in, padding 0.2s ease-in;
+	-o-transition: font-size 0.2s ease-in, padding 0.2s ease-in;
+	transition: font-size 0.2s ease-in, padding 0.2s ease-in;
+}
+
+.main-project:hover .details h2 {
+	font-size: 16px;
+	padding: 20px 0 20px 0;
+}
+
+.project .details {
+	background-color: #fff;
+	color: #fff;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: padding 0.2s ease-out, opacity 0.2s ease-in;
+	-moz-transition: padding 0.2s ease-out, opacity 0.2s ease-in;
+	-o-transition: padding 0.2s ease-out, opacity 0.2s ease-in;
+	transition: padding 0.2s ease-out, opacity 0.2s ease-in;
+	margin: 0 15px;
+	padding: 0;
+}
+
+.no-opacity .project .details {
+	background: none;
+	min-height: 25%;
+	width: 100%;
+	top: -9999px;
+}
+
+.project:hover .details {
+	opacity: 1;
+	padding-top: 6px;
+}
+
+.project .details h2 {
+	font-family: "brandon-grotesque";
+	color: #444;
+	font-weight: 300;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0 0 2px 0;
+	padding: 25% 0 0 0;
+	text-align: center;
+	-webkit-transition: font-size 0.3s ease-out;
+	-moz-transition: font-size 0.3s ease-out;
+	-o-transition: font-size 0.3s ease-out;
+	transition: font-size 0.3s ease-out;
+}
+.project:hover .details h2 {
+	font-size: 16px;
+}
+
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) and (max-width: 1200px) { 
+
+body {
+	padding: 0;
+}
+.main-project .details {
+	bottom: 13%;
+	left: 35.2%;
+	right: 35.2%;
+}
+.project {
+	margin-top: 30px;
+}
+.carousel {
+	margin-top: 0;
+}
+.carousel .item {
+	height: 535px;
+}
+
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+
+body {
+	padding: 0 27px;
+}
+#header {
+	padding: 0;
+}
+.main-project .details {
+	bottom: 13%;
+	left: 32%;
+	right: 32%;
+}
+.project {
+	margin-top: 30px;
+}
+.carousel {
+	margin-top: 0;
+}
+.carousel .item {
+	height: 414px;
+}
+
+	}
+
+
+
